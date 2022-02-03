@@ -1,0 +1,55 @@
+.contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.field-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 84vh;
+    width: 600px;
+    border-radius: 30px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.dealer-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22456c;
+    width: 100%;
+    height: 46%;
+}
+
+.betting-field {
+    display: flex;
+    background: linear-gradient(#22456c 50%, #ffecbe 50%);
+    justify-content: center;
+    height: 8%;
+}
+
+.user-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffecbe;
+    width: 100%;
+    height: 46%;
+}
+
+.interaction-bundle-wrap {
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

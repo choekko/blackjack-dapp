@@ -1,0 +1,34 @@
+.betting-input {
+    flex: 0 0 30px;
+    height: 90%;
+    font-size: 100%;
+    border: none;
+}
+.betting-input:focus {
+    outline: none;
+}
+
+.betting-input::placeholder {
+    text-align: center;
+}
+
+.interaction-btn {
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    background-color: #fff4df;
+    border: 2px solid #1b6d85;
+    box-shadow: 0px 6px 1px #1b6d85;
+    color: #565656;
+    color: #565656;
+    margin: 0 5px;
+}
+
+.interaction-btn.off {
+    background-color: #bbbbbb;
+    box-shadow: 0px 6px 1px black;
+    border: none;
+}
